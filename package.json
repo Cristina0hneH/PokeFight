@@ -1,0 +1,26 @@
+{
+  "name": "pokefight",
+  "version": "1.0.0",
+  "description": "Full-stack game- project for WBS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cristina0hneH/PokeFight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cristina0hneH/PokeFight/issues"
+  },
+  "homepage": "https://github.com/Cristina0hneH/PokeFight#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
