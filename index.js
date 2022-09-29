@@ -3,8 +3,8 @@ const data = require('./data.json');
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.get('/', (req, res) => {
-  res.send('Hello world!');
+app.get("/pokemon", (req, res) => {
+  res.json(data)
 })
 
 app.get('/pokemon/:id', (req, res) => {
